@@ -14,11 +14,8 @@ For more details and evaluation results, please check out our  [paper](http://ie
 
 ### Usuage
 
-Convert the source speech files listed in Gitsource_Test.list with spectrogram features to the Converted_speech folder:
+`JDNMF.m`: convert the source speech files listed in Gitsource_Test.list with spectrogram features to the Converted_speech folder.
 
-  JDNMF.m 
 
-Convert the source speech files listed in Gitsource_Test.list with STRAIGHT features to the Converted_speech_STRAIGHT folder.
-This may perform better, but you have to ask the code from [here](http://www.wakayama-u.ac.jp/~kawahara/index-e.html):
+`JDNMF_STRAIGHT.m`: convert the source speech files listed in Gitsource_Test.list with STRAIGHT features to the Converted_speech_STRAIGHT folder. This may perform better, but you have to ask the code from [here](http://www.wakayama-u.ac.jp/~kawahara/index-e.html).
 
-  JDNMF_STRAIGHT.m
