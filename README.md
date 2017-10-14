@@ -1,5 +1,3 @@
-# JD-NMF
-
 # Joint Dictionary Learning-based Non-Negative Matrix Factorization for Voice Conversion to Improve Speech Intelligibility After Oral Surgery (TBME 2016)
 
 
@@ -13,3 +11,10 @@ The Joint Dictionary Learning-based Non-Negative Matrix Factorization (JD-NMF) i
 For more details and evaluation results, please check out our  [paper](http://ieeexplore.ieee.org/document/7797132/).
 
 ![teaser](https://jasonswfu.github.io/JasonFu.github.io/images/Joint_NMF.png)
+
+### Usuage
+
+JDNMF.m convert the speech files listed in Gitsource_Test.list with spectrogram features to the Converted_speech folder.
+
+JDNMF_STRAIGHT.m convert the speech files listed in Gitsource_Test.list with STRAIGHT features to the Converted_speech_STRAIGHT folder.
+This performance may be better, but you have to ask the code from here http://www.wakayama-u.ac.jp/~kawahara/index-e.html.
