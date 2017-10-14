@@ -5,7 +5,7 @@ IEEE Transactions on Biomedical Engineering, 2016
 
 
 ### Introduction
-The Joint Dictionary Learning-based Non-Negative Matrix Factorization (JD-NMF) is used for training joint dictionary (source & target) with an application in voice conversion. But this method can be used in other applications where the two dictionaries have to be aligned. The basic idea is that if two signals are aligned by some method (e.g., DTW in speech processing), to reconstruct the coupled training data with shared activation matrix, the learned dictionaries are automatcally forced to couple with each other to minimize the distance (e.g., KL divergence).
+The Joint Dictionary Learning-based Non-Negative Matrix Factorization (JD-NMF) is used for training joint dictionary (source & target) for voice conversion. But this method can also be used in other applications where the two dictionaries have to be aligned. The basic idea is that if two signals are first aligned by some methods (e.g., DTW in speech processing), to reconstruct the coupled training data with shared activation matrix, the learned dictionaries are automatcally forced to couple with each other to minimize the distance (e.g., KL divergence).
 
 
 For more details and evaluation results, please check out our  [paper](http://ieeexplore.ieee.org/document/7797132/).
@@ -18,10 +18,10 @@ For more details and evaluation results, please check out our  [paper](http://ie
 `Gittarget.list` is the list of target speech files used for training JD-NMF.
 `Gitsource_Test.list` is the list of source speech files used for testing (conversion).
 
-`JDNMF.m`: convert the source speech files listed in `Gitsource_Test.list` with spectrogram features to the `Converted_speech` folder.
+`JDNMF.m`: Convert the source speech files listed in `Gitsource_Test.list` (with spectrogram features) to the `Converted_speech` folder.
 
 
-`JDNMF_STRAIGHT.m`: convert the source speech files listed in `Gitsource_Test.list` with STRAIGHT features to the `Converted_speech_STRAIGHT` folder. This may perform better, but you have to ask the STRAIGHT code from [here](http://www.wakayama-u.ac.jp/~kawahara/index-e.html).
+`JDNMF_STRAIGHT.m`: Convert the source speech files listed in `Gitsource_Test.list` (with STRAIGHT features) to the `Converted_speech_STRAIGHT` folder. This may perform better, but you have to ask the STRAIGHT code from [here](http://www.wakayama-u.ac.jp/~kawahara/index-e.html).
 
 
 ### Citation
@@ -38,4 +38,4 @@ If you find the code and datasets useful in your research, please cite:
     
 ### Contact
 
-e-mail: jasonfu@iis.sinica.edu.tw
+e-mail: jasonfu@iis.sinica.edu.tw or d04922007@ntu.edu.tw
