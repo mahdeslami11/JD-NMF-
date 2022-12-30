@@ -40,11 +40,7 @@ If you find the code and datasets useful in your research, please cite:
 
 e-mail: jasonfu@iis.sinica.edu.tw or d04922007@ntu.edu.tw
 
-Narges Rezaei is a master's student from South Tehran University
 
-Digital signal processing course
-
-professor Dr.Mande Eslami
 
 
 
