@@ -47,7 +47,7 @@ Digital signal processing course
 professor Dr.Mande Eslami
 
 
-Summary by Narges rezaei
 
-VW.H Abstract of the paper The paper focuses on machine learning-based audio transformation techniques to better understand the speech of amputated patients.  Performs outside the mouth.  These articulators are divided into three categories based on movement and anatomy, one category is simple hinged articulators, one category is preset articulators, and the third category is adjustable articulators.  Due to the removal of parts of the patient's speech articulator, the patient's speech may be unclear and it becomes difficult to understand the patient's speech. To overcome this problem, a system is used that can convert the unclear sound of the patient's speech into clear speech.  This method has 75 names.  To design this method, two important points should be considered. The amount of training data may be limited because it is difficult for patients to speak for a long time after the operation.  The method proposed by the article is a new algorithm based on joint dictionary learning of non-negative matrix factorization (JINM).  This method is a set of algorithms for decomposing a matrix into two matrices. The factorization of matrices is usually one-bit and various methods are provided to do it. Compared to normal VC techniques, JD NMT can efficiently and effectively 770  With only a small amount of training data, the experimental results showed that this II-NMF method is a standardized evaluation criterion compared to the transformed speech methods, and this method is more efficient and more effective than the VC method.
+
+
 
