@@ -47,3 +47,8 @@ e-mail: jasonfu@iis.sinica.edu.tw or d04922007@ntu.edu.tw
 
 
 
+1-target
+The speech of a person after oral surgery is often difficult to understand for untrained listeners Therefore, such pa-tients may desire a voice conversion (VC) system that can convert their voice into clear speech. In this study, we investi-gated the use of a VC approach to improve the intelligibility of the speech of patients who have had parts of their articulators removed during surgery.Normal VC tasks are designed to transform the speech of the source speaker to make it sound like that of another (target) speaker. More recently, VC methods have been adopted for various medical applications.
+
+2-describe innovation
+(1) Conduct objective recognition tests to further confirm the clinical applicability of the proposed JD-NMF, even though STOI has been verified as being able to accurately predict the speech intelligibility. (2) This study has confirmed the effectiveness of the proposed JD-NMF running on a PC; thus, we plan to implement it either as a standalone electronic device or as an app for a smartphone
