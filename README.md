@@ -88,19 +88,7 @@ TargetList     ='Gittarget.list';
 SourceList     ='Gitsource.list';      
 SourceTestList ='Gitsource_Test.list'; 
 
-%%%%%%%%%% Alignment by DTW
-disp('Aligning source and target speech by DTW...')
-[AfterDTW_TargetWavFile, AfterDTW_SourceWavFile]=Implement_DTW(TargetList,SourceList);
-filenum     =size(AfterDTW_TargetWavFile,1);
-		
-%%%%%%%%%%  Get St and Ss
-disp('Converting target waveform to STRAIGHT features St...')
-St=[];
-for i=1:filenum
-    [tp,FS]=wavread(AfterDTW_TargetWavFile{i}); %TargetWavFile{i} is the wav file.
-    [f0raw,ap]=exstraightsource(tp,FS); 
-    n3sgram = exstraightspec(tp,f0raw,FS); 
-    
+
     St=[St,n3sgram];
 end
 all_r=513;
