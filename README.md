@@ -148,3 +148,24 @@ for i=1:size(SourceTestWavFile,2)
     wavwrite(convertedSpeechN,fs,strcat('./Converted_speech_STRAIGHT/',int2str(i),'.wav')); 
 end
 toc;
+
+
+4-Introduction
+At first, we install the GitHubDesktop and code studio visual programs.  Zip files related to the project
+ Download it and unzip it.  Then we enter the VSCode environment.
+
+Then we find and open the file related to the project from the folder open option
+
+In the upper toolbar, we have a series of options that include ..., Edit, file.  We click on the View option, the word problem
+ We choose
+
+Next, we need to install the extension to run the VC files.  We install preview-Audio.
+ After installing the program, we return to the project and open the VC files according to the installation of the required program
+ Now the voices are played without any problem.
+Select the analysis option and then click the play option.
+
+When we want to observe the output wave, we notice that these parts of complete silence are removed
+ and our voice is spread faster.  The wavelength of our input was 24.1 seconds, but the wavelength
+ The output that we have has a wavelength of 19.1 seconds, which means that the parts that do not have useful information have been removed
+ Is.  This program helps to understand what changes happen on the signal.
+
